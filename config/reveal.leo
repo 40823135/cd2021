@@ -21,6 +21,16 @@
 <v t="leo.20200818170328.1"><vh>slide 1</vh></v>
 <v t="leo.20210318004233.1"><vh>slide2</vh></v>
 <v t="leo.20210318001544.1"><vh>slide3</vh></v>
+<v t="leo.20210318013536.1"><vh>slide4</vh></v>
+<v t="leo.20210318013733.1"><vh>slide5</vh></v>
+<v t="leo.20210318013851.1"><vh>slide6</vh></v>
+<v t="leo.20210318013858.1"><vh>slide7</vh></v>
+<v t="leo.20210318014146.1"><vh>slide8</vh></v>
+<v t="leo.20210318014239.1"><vh>slide9</vh></v>
+<v t="leo.20210318014154.1"><vh>slide10</vh></v>
+<v t="leo.20210318014703.1"><vh>slide12</vh></v>
+<v t="leo.20210318014656.1"><vh>slide11</vh></v>
+<v t="leo.20210318015532.1"><vh>slide13</vh></v>
 </v>
 </v>
 </v>
@@ -181,6 +191,45 @@ vertical: body pane on the botton</t>
 &lt;p&gt;林澤叡 40823135&lt;/p&gt;
 &lt;p&gt;倉儲 : &amp;nbsp;&lt;a href="https://github.com/40823135/cd2021"&gt;https://github.com/40823135/cd2021&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;網站 : &amp;nbsp;&lt;a href="https://40823135.github.io/cd2021/content/index.html"&gt;https://40823135.github.io/cd2021/content/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318013536.1">&lt;section&gt;
+&lt;p&gt;繪製出機器主體(骨架和球軌的部分)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="241" src="/images/111.PNG" width="355"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318013733.1">&lt;section&gt;
+&lt;p&gt;繪製出活動架(活動夾持的部分)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="320" src="/images/222.PNG" width="356"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318013851.1">&lt;section&gt;
+&lt;p&gt;第一次在solidworks試組合 :&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/zh97fFBiUSc"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318013858.1">&lt;section&gt;
+&lt;p&gt;繪製出擊球器轉臂(擊球部分)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="391" src="/images/aaa.PNG" width="315"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318014146.1">&lt;section&gt;
+&lt;p&gt;繪製出擊球器底座(底部支撐部分)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="401" src="/images/bbb.PNG" width="311"&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318014154.1">&lt;section&gt;
+&lt;p&gt;cps主體&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/jTWPGdwBgM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318014239.1">&lt;section&gt;
+&lt;p&gt;擊球器在solidworks試組合&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/r0Ao89PoBuM"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318014656.1">&lt;section&gt;
+&lt;p&gt;cps擊球器&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-8fTAFbIJXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318014703.1">&lt;section&gt;
+&lt;p&gt;cps模擬&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/IT0yptAfJ6Q"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318015532.1">&lt;section&gt;
+&lt;p&gt;這次沒有成功夾住球我認為有兩個原因，一個是活動架留的開口大小不適當，第二個是活動架轉軸的部分出現問題，沒辦法按照我們原本想的方式作動，所以才造成球體直接落下的結果&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
