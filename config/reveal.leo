@@ -183,7 +183,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;    
 </t>
 <t tx="leo.20210318001544.1">&lt;section&gt;
-&lt;p&gt;我們這組兩個人都有在打排球，而每次想要練習殺球的時候都必須找另一個人才能練習，所以我們想設計一個東西是一個人就可以練習扣球的機器&lt;/p&gt;&lt;/section&gt;</t>
+&lt;p&gt;我們這組兩個人都有在打排球，但每次想要練習殺球的時候都必須找另一個人才能練習，所以我們想設計一個東西是一個人就可以練習扣球的機器&lt;/p&gt;&lt;/section&gt;</t>
 <t tx="leo.20210318004233.1">&lt;section&gt;
 &lt;p&gt;粘晁維 40823121&lt;/p&gt;
 &lt;p&gt;倉儲 : &amp;nbsp;&lt;a href="https://github.com/40823121/cd2021"&gt;https://github.com/40823121/cd2021&lt;/a&gt;&lt;/p&gt;
@@ -229,7 +229,7 @@ vertical: body pane on the botton</t>
 &lt;p&gt;&lt;iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/IT0yptAfJ6Q"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210318015532.1">&lt;section&gt;
-&lt;p&gt;這次沒有成功夾住球我認為有兩個原因，一個是活動架留的開口大小不適當，第二個是活動架轉軸的部分出現問題，沒辦法按照我們原本想的方式作動，所以才造成球體直接落下的結果&lt;/p&gt;
+&lt;p&gt;這次沒有成功夾住球我認為有兩個原因，一個是活動架留的開口大小不適當，第二個是活動架轉軸的部分出現問題，沒辦法按照我們原本想的方式作動，所以才造成球體直接落下的結果。&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
