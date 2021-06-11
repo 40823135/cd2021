@@ -82,8 +82,79 @@
 <h2>w15-16</h2>
 <h1>robotdk</h1>
 <p>開啟<span>RobotDK</span></p>
+<p><img alt="" height="272" src="/images/dk start.PNG" width="400"/></p>
 <p>主程式開啟後點選左上角"文件"/"打開"(開啟pick&amp;place的範例)</p>
+<p><span><img alt="" height="276" src="/images/ppex rdk.PNG" width="400"/></span></p>
 <p><span>CMD輸入 </span><strong>pip install robodk<span> </span></strong><span>讓RobotDK</span><span>可以正常運行</span></p>
 <p><span>進入Pick and Place 資料夾把<strong>Pick_and_place.py放進</strong><strong>Scite</strong><span>裡面</span></span></p>
+<p><span><span><img alt="" height="274" src="/images/ppex py.PNG" width="400"/></span></span></p>
 <p><span><span>修改<strong>Pick_and_place.py<span> </span></strong><span>把</span><strong>robodk_ip="......."</strong><span><span> </span>改成127.0.0.1</span></span></span></p>
+<p><span><span><span><img alt="" height="426" src="/images/p&amp;p-py.PNG" width="450"/></span></span></span></p>
 <p><span><span><span>結束後按下go 即可執行</span></span></span></p>
+<p>操作影片: </p>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/49H_EekYYE0" title="YouTube video player" width="560"></iframe></p>
+<h1>動力學</h1>
+<h2>1</h2>
+<h2>代數</h2>
+<p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/eIZuz1XCd0w" title="YouTube video player" width="560"></iframe></p>
+<p>Here we have the same two link robot as we just looked at but this time we're going to solve it using an analytical approach,</p>
+<p>在這裡，我們有與剛才看到的相同的兩個連桿，但這次我們將使用分析方法來解決，</p>
+<p>that is we're going to rely much more on algebra,</p>
+<p>我們會頻繁的使用代數，</p>
+<p>particular linear algebra rather than geometry.</p>
+<p>特定的線性代數而不是幾何。</p>
+<p>We have an expression E, which is the homogeneous transformation which represents the pose of the robots endefector and we looked at this in the last lecture,</p>
+<p><span>我們有一個表達式 E，它是表示連桿最後的齊次變換式，我們在上一課中看到了這一點，</span></p>
+<p>we can write the endefector pose as a sequence of elementary homogeneous transformations.</p>
+<p>我們可以將最終位置寫為一系列基本齊次變換式。</p>
+<p>A rotation by Q1, a translation along the X direction by A1, a rotation by Q2 and then a translation in the X direction by A2.</p>
+<p>Q1 旋轉，A1 沿 X 方向平移，Q2 旋轉，然後 A2 沿 X 方向平移。</p>
+<p>If I expand this out, multiply all the transformations together,</p>
+<p>如果我將其展開，將所有變換相乘，</p>
+<p>I get the expression shown here; a three by three homogeneous transformation</p>
+<p>matrix representing the pose of the robot's endefector.</p>
+<p><span>就會得到此處所示的表達式 ;它是一個三乘三的齊次變換矩陣，表示連桿的最終的位置。</span></p>
+<p>Now for this particular two link robot, we are only interested in the position of its endefector, it's X and Y co-ordinate and they are these two elements within the homogeneous</p>
+<p>transformation matrix, so I'm going to copy those out.</p>
+<p>現在這個特殊的連桿，我們只要取末端位置，它是 X 和 Y 坐標，它們是同質內的這兩個元素轉換矩陣，所以我要把它們複製出來。</p>
+<p>So here again is our expression for X and Y and what we're going to do is</p>
+<p>a fairly common trick, we're going to square and add these two equations and I get a relationship that looks like this.</p>
+<p>所以這裡又是我們對 X 和 Y 的表達式，我們要做的是一個相當常見的技巧，我們要平方然後加這兩個方程式，我得到一個看起來像這樣的關係。</p>
+<p>Now I can solve for the joint angle Q2 in terms of the endefector pose X and Y and the robot's constants A1 and A2.</p>
+<p>現在我可以根據機器手臂姿勢 X 和 Y 以及機器人的常數 A1 和 A2 來求解關節角度 Q2。</p>
+<p>Now what I'm going to do is apply the sum of angles identity.</p>
+<p>現在要做的是應用角度恆等式。</p>
+<p>I'm going to expand these terms, sine of Q1 plus Q2 or cos of Q1 plus</p>
+<p>Q2 and to make life a little bit easier,</p>
+<p>I'm going to make some substations, so where ever I had cos Q2,</p>
+<p>I'm going to write C2 and where ever I had sine Q2, I’m going to write S2.</p>
+<p>我將擴展這項，Q1 的正弦加 Q2 或 Q1 的餘弦加 Q2 為了讓式子更簡單，</p>
+<p>It's a fairly common shorthand when people are looking at robot kinematic equations.</p>
+<p>當人們查看機器人運動學方程時，這是一個相當常見的快速記憶法。</p>
+<p>And here are the equations after making those substitutions. Looking at these two equations,</p>
+<p>這是進行這些替換後的方程式。 看這兩個方程，</p>
+<p>I can see that they fall into a very well known form and for that form there is a very well known solution.</p>
+<p>我可以看到它們屬於一個眾所周知的形式，對於這種形式，有一個淺顯易見的解決方法。</p>
+<p>So I'm going to consider just one of the equations,</p>
+<p>the equation for Y and using our well known identity and it's solution,</p>
+<p>所以我會只考慮其中一個方程，</p>
+<p>Y的方程並使用我們眾所周知的表達式和它的解決方案，</p>
+<p>I can determine the values for the variables little a, little b and little c and once I've determined those,</p>
+<p>我可以確定變量小 a、小 b 和小 c 的值，一旦我確定了這些值，</p>
+<p>then I can just write down the solution for Q1,</p>
+<p>which is the equivalent of theta in this particular case.</p>
+<p><span>如果我確定了這些，我就可以寫下 Q1 的解決方程式，在這種特殊情況下，x 就等於 </span><span>θ</span><span>。</span></p>
+<p>Here again is our expression for Q1,</p>
+<p>這裡再次是我們對 Q1 的表達式，</p>
+<p>copied over from the previous slide and we may remember from earlier in our workings that we determined this particular relationship;</p>
+<p>從上一張投影片複製過來，我們可能記得在我們工作的早期，我們確定了這種特殊的關係；</p>
+<p>X squared plus Y squared is equal to this particular complex expression.</p>
+<p>X 平方加 Y 平方等於這個特定的複雜表達式。</p>
+<p>So I can substitute that in and do some simplification and I end up with this</p>
+<p>slightly less complex expression for Q1.</p>
+<p>所以我可以將他替換然後進行一些簡化，最終得到 Q1 的這個稍微不那麼複雜的表達式。</p>
+<p>And it is the same expression that I got following the geometric approach in the previous section.</p>
+<p>這與我在上一節中遵循幾何方法得到的表達式相同。</p>
+<p></p>
+<p>本影片倒出來的公式：</p>
+<p><img alt="" height="159" src="/images/動力2.PNG" width="400"/></p>
